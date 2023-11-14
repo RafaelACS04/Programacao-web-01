@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando tabelas</title>
+
+    <style>
+        table{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        td{
+            border: 1px;
+            border-style: solid;
+            border-color: gray;
+            border-radius: 5px;
+            color: blue;
+            width: 300px;
+            height: 30px;
+            text-align: center;
+        }
+        caption{
+            border: 1px;
+        }
+        th, caption { color: blue;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            <bold>Tabela 1 - Nomes, Cidades e Idades</bold>
+        </caption>
+        <thead>
+            <tr>
+                <th>Nome: </th>
+                <th>Cidade:</th>
+                <th>Idade:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>Registro</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Registro</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>José</td>
+                <td>Cajati</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>Sete Barras</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>Miracatu</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>Jacupiranga</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Leticia</td>
+                <td>Registro</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Antônio</td>
+                <td>Juquia</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Alberto</td>
+                <td>Pariquera-Açu</td>
+                <td>24</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="3">Fim da Tabela</td>
+        </tfoot>
+    </table>
+</body>
+</html>

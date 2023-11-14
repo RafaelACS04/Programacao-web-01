@@ -1,0 +1,8 @@
+.card { 
+    box-shadow: 10PX 10PX 10px rgb(30, 30, 30);
+}
+.card-header {
+    background-color: aquamarine;
+    color: aliceblue;
+    border: 2px solid wheat;
+}
